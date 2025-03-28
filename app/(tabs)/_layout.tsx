@@ -96,11 +96,13 @@ const _layout = () => {
                     title: 'Profile',
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
+                        <View className="mr-4 justify-center items-center">
                         <TabIcon 
                             focused={focused} 
                             icon={icons.person} 
                             title="Profile"
                         />
+                    </View>
                     )
                 }}
             />
